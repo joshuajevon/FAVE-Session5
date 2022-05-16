@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&family=Sora:wght@500&display=swap');
+
+*{
+    font-family: 'Sora';
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(252, 252, 252);
+}
+
+#navbar .container{
+    width: 2000px;
+    margin: 0 auto;
+    
+}
+
+#navbar .container .logo{
+    margin-left: 220px;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#navbar .container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 110px;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.nav-menu .menu-item > *:not(:first-child){
+    margin-left: 50px;
+}
+
+#auth{
+    display: flex;
+    flex-direction: row;
+}
+
+#auth .auth2 a{
+    padding: 8px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid rgb(150, 187, 213);
+    margin-left: 50px;
+}
+
+.career{
+    padding-top: 50px;
+}
+
+.career .judul h1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 170px;
+}
+
+.career .container{
+        height: 50vh;
+        background: url(Asset/bg3.png) ;
+        background-repeat: no-repeat;
+        background-position: 900px;
+        background-size: 600px;
+}   
+
+.career .container .read p{
+    color: rgb(0, 163, 251);
+    margin-left: 100px;
+}
+
+.konten{
+    width: 20%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 10px;
+    margin-left: 450px;
+    padding-top: 90px;
+}
+
+.konten .sub{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.konten #sub1{
+    padding: 1px;
+    background-color: rgb(236, 249, 254);
+    border-radius: 10px;
+}
+
+.konten #sub1 b{
+    background-color: rgb(236, 249, 254);
+}
+
+.konten #sub1 img{
+    background-color: rgb(236, 249, 254);
+}
+
+.konten #sub2 img{
+    background-color: rgb(252, 252, 252);
+}
+
+.konten #sub2 b{
+    color: rgb(153, 174, 188);
+}
+
+.real{
+    color: rgb(78,183, 240);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.gambar .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.gambar .container .judul h1{
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+.gambar .container .closing p{
+    color: rgb(153, 174, 188);
+    margin-top: 150px;
+}
+
+.gambar .container .slider{
+    display: flex;
+    flex-direction: row;
+}
+
+.slider .image img{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color:rgb(252, 252, 252);
+}
+
+.slider button{
+    /* align-items: center; */
+    border-radius: 45%;
+    margin-top: 180px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    background-color: white;
+}
+
+.dolor{
+    color: rgb(78,183, 240);
+}
+
+.logobanyak .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px ;
+}
+
+.logobanyak .container .baris1, .logobanyak .container .baris2{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.baris1 .gbr1, .baris2 .gbr1{
+    margin-right: 200px;
+    
+}
+
+.baris1 .gbr2, .baris2 .gbr2{
+    margin-right: 200px;
+}
+
+.baris1 .gbr1 img, .baris1 .gbr2 img, .baris1 .gbr3 img{
+    background-color: rgb(252, 252, 252);
+}
+
+.baris2 .gbr1 img, .baris2 .gbr2 img, .baris2 .gbr3 img{
+    background-color: rgb(252, 252, 252);
+}
+
+.penutup .container{
+    padding: 64px 50px;;
+    background-color: rgb(229, 242, 247);
+}
+
+.penutup .container h1{
+    background-color: rgb(229, 242, 247);
+    color: rgb(31, 48, 67);
+    margin-left: 100px;
+}
+
+.footer .container {
+    padding: 64px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content:left; 
+    align-items:flex-start;
+    background-color: rgb(1, 31, 71);
+}
+
+.container img{
+    background-color: rgb(1, 31, 71);
+    display: flex;
+    flex-direction: column;
+}
+
+.company h1{
+    background-color: rgb(1, 31, 71);
+    color: white;
+}
+
+.company img{
+    background-color: rgb(1, 31, 71);
+}
+
+.links h1{
+    background-color: rgb(1, 31, 71);
+    color: white;
+    padding-left: 300px;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+.links a{
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+    background-color: rgb(1, 31, 71);
+    color: white;
+    padding-bottom: 20px;
+}
+
+.sosmed{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(1, 31, 71);
+}
+
+.sosmed h1{
+    background-color: rgb(1, 31, 71);
+    color: white;
+    padding-left: 300px;
+    font-size: 20px;
+}
+
+.sosmed p{
+    background-color: rgb(1, 31, 71);
+    color: white;
+    padding-left: 300px;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.media{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 20px;
+}
+
+.media .ig{
+    padding-right: 20px;
+}
+
+.media .twit{
+    padding-right: 20px;
+}
+
+.email h1{
+    background-color: rgb(1, 31, 71);
+    color: white;
+    font-size: 20px;
+}
+
+.email p{
+    background-color: rgb(1, 31, 71);
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.copyright p{
+    background-color: rgb(1, 31, 71);
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&family=Sora:wght@500&display=swap');
+
+*{
+    font-family: 'Sora';
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(252, 252, 252);
+}
+
+#navbar .container{
+    width: 2000px;
+    margin: 0 auto;
+    
+}
+
+#navbar .container .logo{
+    margin-left: 220px;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#navbar .container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 110px;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.nav-menu .menu-item > *:not(:first-child){
+    margin-left: 50px;
+}
+
+#auth{
+    display: flex;
+    flex-direction: row;
+}
+
+#auth .auth2 a{
+    padding: 8px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid rgb(150, 187, 213);
+    margin-left: 50px;
+}
+
+.contact .container1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.contact .container1 .title h1{
+    font-size: 50px
+}
+
+.contact .container1 .title p{
+    font-size: 16px;
+    margin-top: 20px;
+    color: rgb(153, 174, 188);
+}
+
+.contact1{
+    color: rgb(78,183, 240);
+}
+
+.container1 .cp img{
+    background-color: rgb(252, 252, 252);
+    width: 300px;
+    margin-top: 50px;
+}
+
+.form{
+    padding: 50px 600px;
+    background-color: rgb(235, 244,248);
+    /* background: url(Asset/kotak.png); */
+}
+
+.kotak img{
+    padding-left: 600px;
+    padding-right: 600px;
+    background-color: rgb(235, 244,248);
+    display: flex;
+}
+
+.form-bg{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* padding-left: 700px; */
+    margin-left: 100px;
+
+}
+.judul1 h1, .judul2 h1, .judul3 h1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgb(153, 174, 188);
+}
+
+.judul2 h1, .judul3 h1{
+    margin-top: 50px;
+}
+
+.form-bg .contact-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-input label, .contact-input input{
+    margin-bottom: 10px;
+}
+
+.contact-input input{
+    border-radius: 5px;
+    padding: 12px 24px ;
+    border: 3px solid  rgb(235, 244,248);
+    background-color: rgb(235, 244,248);
+}
+
+.contact-input .fullname{
+    margin-right: 130px;
+}
+
+.contact-input1 .contact-input .country{
+    background-color: white;
+}
+
+.judul3 textarea{
+    border-radius: 10px;
+    padding: 10px 10px;
+    padding-right: 290px;
+    margin-right: 100px;
+    background-color: rgb(235, 244,248);
+    border: none;
+}
+
+.submitbtn{
+    margin-top: 40px;
+    margin-right:125px;
+    margin-left: 300px;
+    padding: 15px 15px;
+    margin-bottom: 50px;
+    background-color: rgb(0,148, 254);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-bg .contact-input1{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-input1 .contact-input input{
+    margin-right: 25px;
+}
+
+.footer .container {
+    padding: 64px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content:left; 
+    align-items:flex-start;
+    background-color: rgb(1, 31, 71);
+}
+
+.container img{
+    background-color: rgb(1, 31, 71);
+    display: flex;
+    flex-direction: column;
+}
+
+.company h1{
+    background-color: rgb(1, 31, 71);
+    color: white;
+}
+
+.company img{
+    background-color: rgb(1, 31, 71);
+}
+
+.links h1{
+    background-color: rgb(1, 31, 71);
+    color: white;
+    padding-left: 300px;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+.links a{
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+    background-color: rgb(1, 31, 71);
+    color: white;
+    padding-bottom: 20px;
+}
+
+.sosmed{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(1, 31, 71);
+}
+
+.sosmed h1{
+    background-color: rgb(1, 31, 71);
+    color: white;
+    padding-left: 300px;
+    font-size: 20px;
+}
+
+.sosmed p{
+    background-color: rgb(1, 31, 71);
+    color: white;
+    padding-left: 300px;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.media{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 20px;
+}
+
+.media .ig{
+    padding-right: 20px;
+}
+
+.media .twit{
+    padding-right: 20px;
+}
+
+.email h1{
+    background-color: rgb(1, 31, 71);
+    color: white;
+    font-size: 20px;
+}
+
+.email p{
+    background-color: rgb(1, 31, 71);
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.copyright p{
+    background-color: rgb(1, 31, 71);
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
